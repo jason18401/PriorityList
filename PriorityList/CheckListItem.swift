@@ -8,11 +8,14 @@
 
 import UIKit
 
-class CheckListItem {
+//we extend NSObject to compare items with other items
+class CheckListItem: NSObject {
     
-    var text = ""
+    @objc var text = ""
     var checked = false
-
     
+    func toggleChecked(){
+        checked = !checked
+    }
 
 }

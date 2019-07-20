@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3AEAB2322E18819009C979B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEAB2222E18819009C979B /* TableViewCell.swift */; };
 		A3B8E98122D8BF8F0015FA65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8E98022D8BF8F0015FA65 /* AppDelegate.swift */; };
 		A3B8E98322D8BF8F0015FA65 /* PriorityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8E98222D8BF8F0015FA65 /* PriorityListViewController.swift */; };
 		A3B8E98622D8BF8F0015FA65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B8E98422D8BF8F0015FA65 /* Main.storyboard */; };
@@ -14,9 +15,11 @@
 		A3B8E98B22D8BF900015FA65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B8E98922D8BF900015FA65 /* LaunchScreen.storyboard */; };
 		A3B8E99322D8C4020015FA65 /* CheckListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8E99222D8C4020015FA65 /* CheckListItem.swift */; };
 		A3B8E99522DA44EB0015FA65 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8E99422DA44EB0015FA65 /* TodoList.swift */; };
+		A3B8E99722DB034E0015FA65 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8E99622DB034E0015FA65 /* ItemDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A3AEAB2222E18819009C979B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		A3B8E97D22D8BF8F0015FA65 /* PriorityList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriorityList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B8E98022D8BF8F0015FA65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3B8E98222D8BF8F0015FA65 /* PriorityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityListViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		A3B8E98C22D8BF900015FA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3B8E99222D8C4020015FA65 /* CheckListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListItem.swift; sourceTree = "<group>"; };
 		A3B8E99422DA44EB0015FA65 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		A3B8E99622DB034E0015FA65 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				A3B8E98022D8BF8F0015FA65 /* AppDelegate.swift */,
 				A3B8E98222D8BF8F0015FA65 /* PriorityListViewController.swift */,
+				A3B8E99622DB034E0015FA65 /* ItemDetailViewController.swift */,
 				A3B8E98422D8BF8F0015FA65 /* Main.storyboard */,
 				A3B8E98722D8BF900015FA65 /* Assets.xcassets */,
 				A3B8E98922D8BF900015FA65 /* LaunchScreen.storyboard */,
 				A3B8E98C22D8BF900015FA65 /* Info.plist */,
 				A3B8E99222D8C4020015FA65 /* CheckListItem.swift */,
 				A3B8E99422DA44EB0015FA65 /* TodoList.swift */,
+				A3AEAB2222E18819009C979B /* TableViewCell.swift */,
 			);
 			path = PriorityList;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B8E98322D8BF8F0015FA65 /* PriorityListViewController.swift in Sources */,
+				A3B8E99722DB034E0015FA65 /* ItemDetailViewController.swift in Sources */,
 				A3B8E99322D8C4020015FA65 /* CheckListItem.swift in Sources */,
+				A3AEAB2322E18819009C979B /* TableViewCell.swift in Sources */,
 				A3B8E98122D8BF8F0015FA65 /* AppDelegate.swift in Sources */,
 				A3B8E99522DA44EB0015FA65 /* TodoList.swift in Sources */,
 			);
